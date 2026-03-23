@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    padding: 10px 10px;
+}
+
+
+.top-heading{
+    text-wrap-mode: nowrap;
+}
+
+@media screen and (max-width: 380px) {
+  .top-heading{
+    font-size: 1.5rem;
+  }
+}
