@@ -4,11 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 .flex{
     flex-wrap: nowrap;
     padding: 10px 10px;
+    margin-bottom: 50px;
 }
 
 .itemcontainer{
@@ -22,7 +24,6 @@
 
 .top-heading{
     text-wrap-mode: nowrap;
-    font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
 
@@ -30,4 +31,41 @@
   .top-heading{
     font-size: 1.5rem;
   }
+}
+
+.flex-dishes{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+.mb{
+  margin-bottom: 50px;
+}
+
+.dish-img img{
+  width: 300px;
+}
+
+.dish-img p{
+  color: gray;
+}
+
+.Description{
+  padding: 0px 20px;
+}
+
+.descinpara p{
+  padding-bottom: 2px;
+  border-bottom: 0.5px solid gray;
+}
+
+.descinpara p:first-of-type{
+  margin-bottom: 20px;
+}
+
+.steps{
+  padding: 0px 30px;
 }
