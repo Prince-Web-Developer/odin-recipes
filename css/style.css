@@ -74,3 +74,46 @@
   flex-direction: column;
   gap: 10px;
 }
+
+#width-as-needed{
+  width: fit-content;
+}
+
+a{
+  text-decoration: none;
+}
+
+#dishname{
+  color: black;
+  font-weight: 600;
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+}
+
+.img1{
+  background: url("../images/20513-classic-waffles-mfs-025-4x3-81c0f0ace44d480ca69dd5f2c949731a.webp");
+}
+
+.img2{
+  background: url("../images/7333strawberry-cake-ilutzflcat4x3-6cbaf6b747ae4a1c971b56fc32a4ca5f.webp");
+}
+
+.img3{
+   background: url("../images/pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.avif");
+}
+
+.home-img-container{
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
